@@ -1,0 +1,30 @@
+body{
+	background-color: #ffffcd;
+	font-size: 16px;
+	color: #124cba;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #124cba;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../images/Barefoot etc 154x100 pixels.jpg') no-repeat;
+	width: 154px;
+	height: 100px;
+	margin: 10px 15px 10px 0px;
+}
+.container {
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+}
+
+h1 {
+	margin-left: 1%;
+	margin-right: 5px;
+}
