@@ -3,28 +3,51 @@ body{
 	font-size: 16px;
 	color: #124cba;
 	font-family: 'Oxygen', sans-serif;
+	box-sizing: border-box;
 }
-
+h1 {
+	margin-left: 1%;
+	margin-right: 5px;
+}
+{
+	background-color: black;
+}
 #header-nav {
 	background-color: #124cba;
 	border-radius: 0;
 	border: 0;
 }
-
 #logo-img {
 	background: url('../images/Barefoot etc 154x100 pixels.jpg') no-repeat;
 	width: 154px;
 	height: 100px;
 	margin: 10px 15px 10px 0px;
 }
-.container {
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	padding-left: 0.5%;
-	padding-right: 0.5%;
+#nav-list{
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+#nav-list a {
+text-align: center;
 }
 
-h1 {
-	margin-left: 1%;
-	margin-right: 5px;
+#nav-list a:hover{
+	background: white;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.block{
+	background-color: red;
+}
+.container{
+	width: 100%
+}
+
+@media (max-width: 767px){
+.navbar-collapse  {
+	background-color: black;
+}
 }
